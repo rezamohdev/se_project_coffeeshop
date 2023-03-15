@@ -15,8 +15,8 @@
   max-height: 800px;
 }
 .header__logo {
-  width: 125;
-  height: 142;
+  width: 125px;
+  height: 142px;
   position: absolute;
   top: 30px;
   left: 30px;
@@ -121,12 +121,11 @@
 .recipes__title {
   max-width: 580px;
   font-family: "Inter", Arial, sans-serif;
-  padding-bottom: 24px;
-  padding-left: 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-left: 80px;
   color: #ffffff;
   margin: 0;
 }
@@ -148,8 +147,7 @@
   display: flex;
   justify-content: center;
   column-gap: 40px;
-  margin-top: 80px;
-  border: 1px solid red;
+  padding-top: 80px;
 }
 
 .recipes__video {
