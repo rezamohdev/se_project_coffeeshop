@@ -158,6 +158,11 @@
   width: 480px;
   height: 283px;
 }
+.recipes__iframe {
+  width: 480;
+  height: 283px;
+  border: 0;
+}
 .recipes__video-caption {
   display: flex;
   color: #fff;
