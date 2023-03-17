@@ -253,6 +253,10 @@
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
+  transition: opacity 600ms ease-out;
+}
+.form__button:hover {
+  opacity: 70%;
 }
 
 .form__checkbox {
