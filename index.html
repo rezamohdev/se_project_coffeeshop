@@ -10,7 +10,6 @@
     />
     <meta name="author" content="Reza" />
     <meta name="keywords" content="Cofee,library,Practicum,Nice,Fresh" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,16 +78,16 @@
             <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                src="https://www.youtube.com/embed/TdqL8vPGtcw"
+                src="https://www.youtube.com/embed/TvNWLrRzIAM"
                 title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share, controls"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
                 <div class="recipes__video-title">
-                  Afghan Sheer Chai - Milk Tea Recipe
+                  How to Make Turkish Coffee
                 </div>
-                <div class="recipes__video-duration">~2 min</div>
+                <div class="recipes__video-duration">~4 min</div>
               </div>
             </div>
             <div class="recipes__video">
@@ -166,17 +165,157 @@
         <!-- Reservation  section end -->
 
         <!-- Menu section start -->
-        <section class="menu" id="menu"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <h4 class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </h4>
+          <div class="menu__cards">
+            <ul class="card">
+              <h5 class="card__title">Filter</h5>
+              <li class="card__list-item">
+                Regular (12 oz)
+                <span class="card__list-divider"></span>
+                $1
+              </li>
+              <li class="card__list-item">
+                Large (16 oz)
+                <span class="card__list-divider"></span>
+                $1.25
+              </li>
+              <li class="card__list-item">
+                XL (20 oz)
+                <span class="card__list-divider"></span>
+                $1.5
+              </li>
+              <li class="card__list-item">
+                Party-size (24 oz, decaf)
+                <span class="card__list-divider"></span>
+                $1.75
+              </li>
+              <li class="card__list-item">
+                Iced Coffee (16 oz)
+                <span class="card__list-divider"></span>
+                $1.25
+              </li>
+            </ul>
+            <ul class="card">
+              <h5 class="card__title">Espresso</h5>
+              <li class="card__list-item">
+                Macchiato
+                <span class="card__list-divider"></span>
+                $2.25
+              </li>
+              <li class="card__list-item">
+                Cortado
+                <span class="card__list-divider"></span>
+                $2.5
+              </li>
+              <li class="card__list-item">
+                Mocha
+                <span class="card__list-divider"></span>
+                $3
+              </li>
+              <li class="card__list-item">
+                Sunrise in the Bay Area (decaf)
+                <span class="card__list-divider"></span>
+                $10
+              </li>
+            </ul>
+            <ul class="card">
+              <h5 class="card__title">Baked Goods</h5>
+              <li class="card__list-item">
+                Almond Croissant
+                <span class="card__list-divider"></span>
+                $2
+              </li>
+              <li class="card__list-item">
+                Banana Bread
+                <span class="card__list-divider"></span>
+                $1.75
+              </li>
+              <li class="card__list-item">
+                Key Lime Pie
+                <span class="card__list-divider"></span>
+                $3
+              </li>
+              <li class="card__list-item">
+                Blue Velvet Cake
+                <span class="card__list-divider"></span>
+                $3.75
+              </li>
+              <li class="card__list-item">
+                Web Cookie
+                <span class="card__list-divider"></span>
+                $2
+              </li>
+              <li class="card__list-item">
+                Fresh Bug’uette
+                <span class="card__list-divider"></span>
+                $0.25
+              </li>
+            </ul>
+          </div>
+        </section>
         <!-- Mnu section end -->
 
         <!-- About section start -->
-        <section class="about" id="about"></section>
+        <section class="about" id="about">
+          <h2 class="about__title">About the coffe shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle_animation_blurred"></div>
+        </section>
         <!-- About section end -->
       </main>
       <!-- Main end -->
 
       <!-- Footer start -->
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/practicum_logo.svg"
+            alt="footer logo"
+            class="footer__logo"
+          />
+          <h5 class="footer__social-heading">Social media</h5>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="faceboook icon"
+                  class="footer__social-icon"
+                />Facebook</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="instagram icon"
+                  class="footer__social-icon"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copyright">&copy; 2023 Reza Mohammadi</div>
+      </footer>
       <!-- Footer end -->
     </div>
     <!-- Page end -->
