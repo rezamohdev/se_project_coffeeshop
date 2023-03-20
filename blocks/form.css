@@ -26,6 +26,13 @@
   line-height: 20px;
   padding: 0;
 }
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 0 0;
+  padding: 0;
+}
 .form__label:last-child {
   margin-bottom: 0;
 }
@@ -78,13 +85,7 @@
   display: inline-block;
   padding: 2px;
 }
-.form__label--type-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 32px 0 0 0;
-  padding: 0;
-}
+
 .form__checkbox:checked {
   background: #2f80ed url(../images/check.svg);
   background-repeat: no-repeat;
