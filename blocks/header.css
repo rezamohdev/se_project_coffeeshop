@@ -1,25 +1,22 @@
 /* header style */
 .header {
   position: relative;
+  z-index: 1;
   height: 100vh;
   background: #ffffff no-repeat url(../images/background_header.svg)
     center/cover;
   min-height: 720px;
   max-height: 800px;
-}
-.header__logo {
-  width: 125px;
-  height: 142px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  bottom: 80px;
+  padding: 30px 80px 0;
 }
 
 .header__image {
   position: absolute;
+  z-index: -1;
   width: 646px;
   height: 568px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__title {
@@ -32,6 +29,7 @@
   line-height: 72px;
 }
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -49,14 +47,6 @@
   font-size: 20px;
   line-height: 30px;
 }
-
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
-}
 .header__footer {
   position: absolute;
   top: auto;
@@ -64,7 +54,7 @@
   right: 80px;
   bottom: 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   column-gap: 0;
