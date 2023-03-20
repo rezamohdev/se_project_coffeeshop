@@ -54,7 +54,8 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding-right: 10px;
+  padding: 0;
+  margin-right: 10px;
 }
 .footer__copyright {
   color: #fff;
